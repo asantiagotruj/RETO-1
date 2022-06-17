@@ -1,0 +1,82 @@
+body{
+    background-image: url(./images/background.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.container{
+    width: 60vw;
+    height: 70vh;
+    padding: 8px 8px;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.contenedor-imagen{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.personaje{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.contenedor-descripcion{
+    width: 550px;
+    height: 290px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descripcion-personaje{
+    margin: auto;
+    font-family: 'skranji', cursive;
+    font-weight: bold;
+    width: 438px;
+    height: 115px;
+}
+
+.titulo-personaje{
+    font-family: 'skranji', cursive;
+    font-weight: bold;
+    width: 10px;
+    height: 10px;
+}
+
+.boton-volver{
+    background: none;
+    color: purple;
+    font-family: 'skranji', cursive;
+    font-weight: bold;
+    border: none;
+    padding: 12px 12px;
+    }
